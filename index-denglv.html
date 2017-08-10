@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录--蜜芽</title>
+		<link rel="stylesheet" href="css/index01.css" />
+		<link rel="stylesheet" href="css/index-dl.css" />
+	</head>
+	<body>
+		<div id="harder">
+			<div class="logo">
+				<a target="_blank" href="shouye.html?__hbt=1501742155781"><img src="img/denglubj.png" /></a>
+			</div>
+			<div class="dlzc">
+				<div class="dlzc-l">
+					<h3>登录蜜芽</h3>
+					<p>还没有蜜芽账号？</p>
+					<a href="index-zc.html?__hbt=1501759731068">30秒注册</a>
+				</div>
+				<div class="bezel">
+					<input type="text" placeholder="手机号" class="sjh"/>
+					<input type="text" placeholder="短信验证码" class="yzm"/>
+					<input type="button" value="获取短信验证码" class="hqyzm"/>
+					<a href="#" id="dl-btn">登录</a>
+				</div>
+				<div class="footing">
+					<p>使用以下账号登录：<a href="#"><img src="img/weibo.png" /></a><a href="index-wxlj.html?__hbt=1501754164874"><img src="img/weixin.png" /></a></p>
+				</div>
+			</div>
+		</div>
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script src="js/denglu.js" type="text/javascript" charset="UTF-8"></script>
+		<script>
+		  $(function () {
+		    $("#dl-btn").click(function () {
+		      if ($(".sjh").val().length == 0){
+		        return alert("请输入手机号!");
+		      }
+		      if ($(".yzm").val().length == 0){
+		        return alert("请输入验证码!");
+		      }
+		 
+		      $.ajax({
+		        type:"POST",
+		        data:{
+		          username:$(".sjh").val(),
+		          pass word:$(".yzm").val()
+		        },
+		        success:function (res) {
+		          alert("登录成功!")
+		        },
+		        error:function (err) {
+		          console.log(err);
+		        }
+		      })
+		    })
+		  });
+		</script>
+	</body>
+</html>

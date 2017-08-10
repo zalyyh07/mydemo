@@ -1,0 +1,179 @@
+#harder{
+	width:965px;
+	height: 505px;
+	position: relative;
+	background:#fff;
+	margin:45px auto;
+	padding-top:75px;
+}
+
+#harder .logo a{
+	width:600px;
+	height:600px;
+	display:inline-block;
+	position:absolute;
+}
+#harder .dlzc{
+	width:304px;
+	box-shadow:0 0 4px rgba(0,0,0,.075);
+	float:right;
+	margin-top:35px;
+	padding:0 20px;
+}
+#harder .dlzc .nav h3,p,a{
+	float:left;
+	display:inline-block;
+	margin-bottom: 13px;
+	line-height: 60px;
+}
+#harder .dlzc .nav h3{
+	font-size:20px;
+	color:#f450a2;
+}
+#harder .dlzc .nav p{
+	padding-left:60px;
+	font-size:12px;
+	color:#f450a2;
+}
+#harder .dlzc .nav a{
+	font-weight: 600;
+	color:#666;
+	padding-left:10px;
+	font-size:12px;
+}
+#harder .dlzc .nav a:hover{
+	color:#f450a2;
+	font-weight: 600;
+	padding-left:10px;
+	font-size:12px;
+}
+#harder .dlzc .bezel .sjh,.yzm{
+	box-shadow:0 0 4px rgba(0,0,0,.075) inset;
+    font-size: 14px;
+    border:1px solid #999;
+}
+#harder .dlzc .bezel .sjh{
+	padding:8px 2px 8px 6px;
+    width: 274px;
+}
+#harder .dlzc .bezel .renz{
+	display: inline-block;
+	width:282px;
+	margin-top:15px;
+	cursor: pointer;
+	float:left;
+	height: 40px;
+	border:1px solid #999;
+}
+#harder .dlzc .bezel .renz img{
+	display: inline-block;
+	margin:6px;
+	float:left;
+}
+#harder .dlzc .bezel .renz b{
+	line-height: 40px;
+	padding:8px 0 0 6px;
+	font-size: 14px;
+}
+#harder .dlzc .bezel .yzm,.hqyzm{
+	margin-top:15px;
+	padding:8px 8px;
+    width: 130px;
+    height:21px;
+}
+#harder .dlzc .bezel .hqyzm{
+	padding:0 8px;
+	font-weight: 600;
+	font-size:12px;
+    height:37px;
+}
+#harder .dlzc .bezel .mima{
+	display: inline-block;
+	width:282px;
+	margin-top:15px;
+	cursor: pointer;
+	float:left;
+	height: 40px;
+	border:1px solid #999;
+}
+#harder .dlzc .bezel .mima img{
+	width:32px;
+	height:32px;
+	margin:2px 4px;
+	display: inline-block;
+	float:left;
+}
+#harder .dlzc .bezel .mima #shur{
+	width:240px;
+	line-height: 40px;
+	font-size: 16px;
+	border:none;
+	outline: none;
+	
+}
+#harder .dlzc .bezel .hqmima{
+	display: inline-block;
+	width:282px;
+	margin-top:15px;
+	cursor: pointer;
+	float:left;
+	height: 40px;
+	border:1px solid #999;
+}
+#harder .dlzc .bezel .hqmima #quer{
+	width:240px;
+	line-height: 40px;
+	font-size: 16px;
+	border:none;
+	outline: none;
+}
+#harder .dlzc .bezel .hqmima img{
+	width:32px;
+	height:32px;
+	margin:2px 4px;
+	display: inline-block;
+	float:left;
+}
+#harder .dlzc .footing p.te{
+	width:256px;
+	height:60px;
+	text-align: center;
+	margin-bottom:0;
+	line-height:40px;
+}
+#harder .dlzc .footing p.te span{
+	color:#a9a9a9;
+	display: inline-block;
+	float:left;
+	margin-top:16px;
+	margin-left:30px;
+	font-size: 12px;	
+}
+#harder .dlzc .footing p.te a{
+	display: inline-block;
+	margin:21px 0 0 8px;
+	text-align: center;
+	line-height:30px;
+	color:#f450a2;
+	float: left;
+}
+#harder .dlzc .footing p.te #anniu{
+	display: inline-block;
+	float:left;
+	margin:30px -23px 12px 10px;
+	
+}
+#harder .dlzc .footing a#zc-btn{
+	display: inline-block;
+	width:255px;
+	padding:7px 14px;
+	cursor: pointer;
+	font-size:20px;
+	line-height: 30px;
+	font-weight: 700;
+	margin-top:5px;
+	text-align: center;
+	color:#fff;
+	height:30px;
+	background:none repeat scroll 0 0 #F450A2;
+}

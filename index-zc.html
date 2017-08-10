@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册--蜜芽</title>
+		<link rel="stylesheet" href="css/index01.css" />
+		<link rel="stylesheet" href="css/index-zuce.css" />
+	</head>
+	<body>
+		<div id="harder">
+			<div class="logo">
+				<a target="_blank" href="shouye.html?__hbt=1501742155781"><img src="img/zc.png" /></a>
+			</div>
+			<div class="dlzc">
+				<div class="nav">
+					<h3>注册蜜芽</h3>
+					<p>已有蜜芽账号？</p>
+					<a href="index-denglv.html?__hbt=1501759673811">登录</a>
+				</div>
+				<div class="bezel">
+					<input type="text" placeholder="手机号" class="sjh"/>
+					<span class ="renz"><img src="img/renz.png"/><b>点击完成认证</b></span>
+					<input type="text" placeholder="短信验证码" class="yzm"/>
+					<input type="button" value="获取短信验证码" class="hqyzm"/>
+					<div class="mima"><img src="img/mima.png" /><input type="password" placeholder="密码" id="shur" /></div>
+					<div class="hqmima"><img src="img/mima.png" /><input type="password" placeholder="确认密码" id="quer" /></div>
+				</div>
+				<div class="footing">
+					<p class="te"><input type="checkbox" id="anniu" /><span>我已阅读并接受</span><a target="_blank" href="https://www.mia.com/help/?aid=35">《蜜芽服务条款》</a></p>
+					<a href="#" id="zc-btn">注册</a>
+				</div>
+			</div>
+		</div>
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script src="js/denglu.js" type="text/javascript" charset="UTF-8"></script>
+		<script>
+		  $(function () {
+				$("#zc-btn").click(function () {
+			    if ($(".sjh").val().length == 0){
+			        return alert("请输入手机号!");
+			    }
+			    if ($("#shur").val().length == 0){
+			        return alert("请输入密码!");
+			    }
+			 	 if ($("#quer").val().length !== $("#shur").val().length){
+			        return alert("请输入相同的密码!");
+			    }
+			    $.ajax({
+			        type:"POST",
+			        data:{
+				        username:$(".sjh").val(),
+				        password:$(".yzm").val()
+			        },
+			        success:function (res) {
+			        	alert("注册成功!")
+			        },
+			        error:function (err) {
+			        	console.log(err);
+			        }
+			      })
+			 
+			    })
+			  });
+		</script>
+	</body>
+</html>

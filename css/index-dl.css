@@ -1,0 +1,101 @@
+#harder{
+	width:965px;
+	height: 505px;
+	position: relative;
+	background:#fff;
+	margin:22px auto;
+	padding-top:75px;
+}
+#harder .logo a{
+	width:600px;
+	height:600px;
+	display:inline-block;
+	position:absolute;
+}
+#harder .dlzc{
+	width:304px;
+	box-shadow:0 0 4px rgba(0,0,0,.075);
+	float:right;
+	margin-top:10px;
+	padding:0 20px;
+}
+#harder .dlzc .dlzc-l h3,p,a{
+	float:left;
+	display:inline-block;
+	margin-bottom: 13px;
+	line-height: 60px;
+}
+#harder .dlzc .dlzc-l h3{
+	font-size:20px;
+	color:#f450a2;
+}
+#harder .dlzc .dlzc-l p{
+	padding-left:60px;
+	font-size:12px;
+	color:#f450a2;
+}
+#harder .dlzc .dlzc-l a{
+	font-weight: 600;
+	color:#666;
+	padding-left:10px;
+	font-size:12px;
+}
+#harder .dlzc .dlzc-l a:hover{
+	color:#f450a2;
+	font-weight: 600;
+	padding-left:10px;
+	font-size:12px;
+}
+#harder .dlzc .bezel .sjh,.yzm{
+	box-shadow:0 0 4px rgba(0,0,0,.075) inset;
+    font-size: 14px;
+    border:1px solid #999;
+}
+#harder .dlzc .bezel .sjh{
+	padding:8px 2px 8px 6px;
+    width: 256px;
+}
+#harder .dlzc .bezel .yzm,.hqyzm{
+	margin-top:15px;
+	padding:8px 8px;
+    width: 130px;
+    height:21px;
+}
+#harder .dlzc .bezel .hqyzm{
+	padding:0 8px;
+	font-weight: 600;
+	font-size:12px;
+    height:37px;
+}
+#harder .footing img{
+	display:inline-block;
+	width:24px;
+	height:24px;
+}
+#harder .dlzc .bezel a#dl-btn{
+	display: inline-block;
+	width:255px;
+	padding:7px 14px;
+	cursor: pointer;
+	font-size:20px;
+	line-height: 30px;
+	font-weight: 700;
+	margin-top: 20px;
+	text-align: center;
+	color:#fff;
+	height:30px;
+	background:none repeat scroll 0 0 #F450A2;
+}
+#harder .dlzc .footing{
+	opacity: 0.6;
+}
+#harder .dlzc .footing p{
+	float:left;
+	font-size:12px;
+	line-height: 66px;
+}
+#harder .dlzc .footing p a{
+	display: inline-block;
+	padding:0 2px;
+	float:right;
+}
